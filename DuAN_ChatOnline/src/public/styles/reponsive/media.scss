@@ -1,0 +1,35 @@
+/* reponsive */
+/* PC : width >= 1024px */
+@media screen and (min-width: 64em) {
+
+}
+
+
+/* tablet */
+@media screen and (min-width: 46.25em) and (max-width: 63.938em) {
+
+
+}
+
+
+/* mobile : width < 740px   */
+@media screen and (max-width: 48.188em) { 
+    .boxItem3 {
+        display: none;
+    }
+    .boxItem2 {
+       width: 100% !important;
+    }
+    .boxMain_userChat {
+        width: 100% !important;
+    }
+    .box-search {
+        width: 80%;
+    }
+    .boxItem_chatPC {
+        display: none;
+    }
+    .boxItem_chatMobile {
+        display: block;
+    }
+}

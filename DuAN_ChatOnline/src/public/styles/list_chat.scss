@@ -1,0 +1,93 @@
+// search
+.boxMain-search {
+    width: 100%;
+    height: 58px;
+    background-color: white;
+    border-bottom: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.box-search {
+    width: 60%;
+    margin-top: 8px;
+    height: 20px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--xam-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icon_inp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    // border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--xam-color);
+}
+
+.icon_inp input {
+    border: none;
+    outline: none;
+    background-color: var(--xam-color);
+}
+
+.icon_inp .icon {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #757575;
+    align-items: center;
+    display: flex;
+}
+
+
+.list-search {
+    display: flex;
+    align-items: center;
+}
+
+.icon-userAdd,
+.icon-groupAdd {
+    margin-left: 8px;
+        padding: 5px;
+    cursor: pointer;
+}
+
+.icon-userAdd:hover,
+.icon-groupAdd:hover {
+    background-color: var(--xam-color);
+}
+
+
+
+// list
+
+.scroll {
+    overflow-y: scroll;
+    height: 92vh;
+}
+
+/* Tùy chỉnh thanh trượt */
+.scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    // background: #dad7d7;
+    border-radius: 5px;
+    height: 10px; /* Chiều cao của thanh trượt */
+}
+
+// .scroll::-webkit-scrollbar-thumb:hover {
+//     background: #3d89f7;
+// }

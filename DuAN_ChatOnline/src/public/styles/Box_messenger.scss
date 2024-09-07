@@ -1,0 +1,275 @@
+// body_messenger
+.body_mess {
+    background-color: var(--xam-color);
+    height: 83vh;
+    border-bottom: 1px solid var(--border-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_body_mess {
+    overflow-y: scroll;
+    height: 100vh;
+    max-height: 83vh;
+}
+
+.container_body_mess .list_chat {
+    margin-top: 5px;
+}
+
+/* Tùy chỉnh thanh trượt */
+.container_body_mess::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.container_body_mess::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.container_body_mess::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    // background: #dad7d7;
+    border-radius: 5px;
+    height: 10px;
+    /* Chiều cao của thanh trượt */
+}
+
+// chat User
+.container-chatUser {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.box-chatUser {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 400px;
+}
+
+.ngaythangnamChatUser {
+    align-self: flex-end;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    padding: 2px;
+    background-color: #c1c1c1;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+.bachamUser {
+    align-self: flex-end;
+    margin-bottom: -5px;
+    padding-left: 3px;
+    cursor: pointer;
+}
+
+.box-chatUser .flex-boxChatUser {
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+}
+
+.time-chatUser {
+    padding-top: 8px;
+    font-size: 0.75rem;
+    width: 100%;
+    color: #757575;
+}
+
+// chat Your
+.container-chatYour {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: flex-end;
+    // text-align: right;
+}
+
+.box-chatYour {
+    display: inline-block;
+    margin-right: 20px;
+    // border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: white;
+    max-width: 400px;
+}
+
+.ngaythangnamChatYour {
+    align-self: flex-end;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    padding: 2px;
+    background-color: #c1c1c1;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+}
+
+.bachamYour {
+    align-self: flex-end;
+    margin-bottom: -5px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+
+.box-chatYour .flex-boxChatYour {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time-chatYour {
+    padding-top: 8px;
+    font-size: 0.75rem;
+    width: 100%;
+    color: #ffffff;
+}
+
+.mess-image {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.mess-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+//footer_messenger
+
+.footer_mess {
+    height: 17vh;
+}
+
+.flex_footMess {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.flex_footMess .inp_footMess {
+    width: 95%;
+}
+
+.flex_footMess .inp_footMess input {
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.footer_mess .icon_footMess {
+    cursor: pointer;
+}
+
+.send-btn {
+    border: none;
+    background: rgba(72, 112, 223, 1);
+    color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.react-emoji {
+    width: 90% !important;
+}
+
+.flex_footMess #file-picture,#file-picture2 {
+    display: none;
+}
+
+.div-picture {
+    width: 5%;
+}
+
+.lable-file-picture {
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    background-color: gainsboro;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    margin: auto;
+}
+
+.react-input-emoji--container {
+    margin-left: 0 !important;
+}
+
+// css phần banner box messenger
+.banner_boxRight {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner_boxRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-default-content {
+    width: 70%;
+    margin: auto;
+}
+
+.box-default-content .h1-content {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.box-default-content .p-1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+.box-default-content .list-img {
+    padding-top: 20px;
+    margin: auto;
+    width: 80%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.list_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-default-content .h2-content {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #3d89f7;
+}
+
+.box-default-content .p-2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.95rem;
+}

@@ -1,0 +1,44 @@
+.boxHead_mess {
+    height: 58.6px;
+    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainAtavarUser {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.mainAtavarUser .avateUser {
+    background: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.mainAtavarUser .avateUser img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.boxHead_inline {
+    display: inline-block;
+}
+
+
+.boxHead_nameUser_icon .boxHead_nameUser {
+    font-size: 1.3rem;
+}
+
+.boxHead_nameUser_icon {
+    padding-left: 12px;
+}
